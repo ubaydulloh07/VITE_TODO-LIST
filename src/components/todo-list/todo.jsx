@@ -85,10 +85,10 @@ export default function VazifaDasturi() {
               <td>{vazifa.shartlarQabul ? "Ha" : "Yo'q"}</td>
               <td className={`holat ${vazifa.holat.toLowerCase()}`}>{vazifa.holat}</td>
               <td>
-                <button className="tahrir-btn" onClick={() => tahrirlash(index)}>✏️</button>
+                <button className="tahrir-btn" onClick={() => tahrirlash(index)}>edit</button>
               </td>
               <td>
-                <button className="ochirish-btn" onClick={() => ochirish(index)}>🗑️</button>
+                <button className="ochirish-btn" onClick={() => ochirish(index)}>delete</button>
               </td>
             </tr>
           ))}
